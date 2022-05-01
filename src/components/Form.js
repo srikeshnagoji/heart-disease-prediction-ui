@@ -30,7 +30,7 @@ const Form = () => {
     const errorMessage =
       "An internal error occurred. Please contact the support team.";
     try {
-      const url = baseUrl + `/heart-disease?inputs=[${inputValues.toString()}]`;
+      const url = baseUrl + `/prediction?inputs=[${inputValues.toString()}]`;
       let res = await fetch(url, {
         method: "GET",
       });
