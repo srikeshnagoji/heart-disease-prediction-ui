@@ -1,0 +1,18 @@
+.form {
+  margin: 6rem;
+  /* width: 50rem; */
+  align-self: center;
+  max-width: 50rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-family: "Roboto", sans-serif;
+}
